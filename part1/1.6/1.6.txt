@@ -1,0 +1,6 @@
+Dockerfile is in this folder
+
+commands to build and start the container
+docker build -t "docker-clock" .
+docker run docker-clock
+OR docker run -it docker-clock (can close the clock with ctrl+c)

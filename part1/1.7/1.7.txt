@@ -1,0 +1,5 @@
+command to build:
+docker build -t "curler" .
+
+command to run:
+docker run -it curler
