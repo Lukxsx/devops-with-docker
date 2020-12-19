@@ -1,4 +1,4 @@
-FROM openjdk:11-buster
+FROM openjdk:8
 EXPOSE 8080
 RUN apt-get -y install git
 RUN git clone https://github.com/docker-hy/spring-example-project.git
