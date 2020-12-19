@@ -1,0 +1,16 @@
+commands used:
+
+touch logs.txt (without this the command below tries to create a folder with this name)
+
+docker run -v $(pwd)/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
+
+
+output of the logs.txt:
+Sat, 19 Dec 2020 13:13:34 GMT
+Sat, 19 Dec 2020 13:13:37 GMT
+Sat, 19 Dec 2020 13:13:40 GMT
+Sat, 19 Dec 2020 13:13:43 GMT
+Secret message is:
+"Volume bind mount is easy"
+Sat, 19 Dec 2020 13:13:49 GMT
+
